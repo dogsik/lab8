@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -9,3 +10,4 @@ int main()
     cout << "Author: Kozlova Anastasia\n";
     return 0;
 }
+
