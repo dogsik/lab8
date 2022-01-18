@@ -4,27 +4,27 @@
 
 #include "constants.h"
 
-struct time
+struct date 
 {
-    int hours;
+    int hourse;
     int min;
     int sec;
 };
 
-struct person
+struct bytes
 {
-    char first_name[MAX_STRING_SIZE];
-    char middle_name[MAX_STRING_SIZE];
-    char last_name[MAX_STRING_SIZE];
+    int bytes;
+    
+    
 };
 
-struct book_subscription
+struct Internet_Protocol
 {
-    person reader;
-    time start;
-    time finish;
-    person author;
-    char path[MAX_STRING_SIZE];
+   date start;
+   date finish;
+   bytes rec;
+   bytes send;
+   char path[MAX_STRING_SIZE];
 };
 
 #endif
