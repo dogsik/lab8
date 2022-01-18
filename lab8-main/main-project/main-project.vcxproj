@@ -139,19 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="file_reader.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="constants.h" />
-    <ClInclude Include="file_reader.h" />
-    <ClInclude Include="Internet_Protocol.h" />
+    <ClInclude Include="Header.h" />
   </ItemGroup>
-=======
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
->>>>>>> data
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
