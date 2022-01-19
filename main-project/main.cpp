@@ -17,45 +17,45 @@ int main()
     cout << "Variant #5. Internet Protocol.\n";
     cout << "Author: Kozlova Anastasia\n";
 
- cout << "Ëàáîðàòîðíàÿ ðàáîòà ¹8. GIT\n";
-cout << "Âàðèàíò ¹5. Ïðîòîêîë ðàáîòû â Èíòåðíåòå\n";
-cout << "Àâòîð: Àíàñòàñèÿ Êîçëîâà\n\n";
+ cout << "Лабораторная работа №8. GIT\n";
+cout << "Вариант №5. Протокол работы в Интернете\n";
+cout << "Автор: Анастасия Козлова\n\n";
 Internet_Protocol* Protocol[MAX_FILE_ROWS_COUNT];
 int size;
 try
 {
     read("data.txt", Protocol, size);
-    cout << "***** Ïðîòîêîë ðàáîòû â èíòåðíåòå *****\n\n";
+    cout << "***** Протокол работы в интернете *****\n\n";
     for (int i = 0; i < size; i++)
     {
-        /********** êîë-âî áàéò **********/
-        /*ïîëó÷åííî*/
-        cout << "áàéòû........: ";
+        /********** кол-во байт **********/
+        /*полученно*/
+        cout << "байты........: ";
         cout << Protocol[i]-> rec.bytes << " ";
         cout << Protocol[i]->finish.min << ". ";
         cout << '\n';
        
-       // âûâîä íàçâàíèÿ
+       // вывод названия
         cout << '"' << Protocol[i]->path << '"';
         cout << '\n';
        
-     /********** âûâîä âðåìåíè **********/
-        // âûâîä ÷àñîâ
-        cout << "Âðåìÿ çàøåë.....: ";
+     /********** вывод времени **********/
+        // вывод часов
+        cout << "Время зашел.....: ";
         cout << setw(4) << setfill('0') << Protocol[i]->start.hourse << '-';
-        // âûâîä ìèíóò
+        // вывод минут
         cout << setw(2) << setfill('0') << Protocol[i]->start.min << '-';
-        // âûâîä ñåê
+        // вывод сек
         cout << setw(2) << setfill('0') << Protocol[i]->start.sec;
         cout << '\n';
               
-        /********** âûâîä äàòû âîçâðàòà **********/
-        // âûâîä ãîäà
-        cout << "Âðåìÿ âûøåë...: ";
+        /********** вывод даты возврата **********/
+        // вывод года
+        cout << "Время вышел...: ";
         cout << setw(4) << setfill('0') << Protocol[i]->finish.hourse << '-';
-        // âûâîä ìåñÿöà
+        // вывод месяца
         cout << setw(2) << setfill('0') << Protocol[i]->finish.min << '-';
-        // âûâîä ÷èñëà
+        // вывод числа
         cout << setw(2) << setfill('0') << Protocol[i]->finish.sec;
         cout << '\n';
         cout << '\n';
@@ -68,45 +68,4 @@ catch (const char* error)
     cout << error << '\n';
 }
 return 0;
-}
-
-
-
-   
-
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    cout << "Laboratory work #8. GIT\n";
-
-    cout << "Variant #5. Internet Protocol.\n";
-    cout << "Author: Kozlova Anastasia\n";
-    cout << "Group: 14\n";
-    return 0;
-}
-
-
-
-
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    cout << "Laboratory work #8. GIT\n";
-    cout << "Variant #5. Internet Protocol.\n";
-    cout << "Author: Kozlova Anastasia\n";
-    cout << "Group: 14\n";
-    return 0;
-}
-
-
-
-    cout << "Variant #5. Internet Protocol\n";
-    cout << "Author: Kozlova Anastasia\n";
-    return 0;
 }
