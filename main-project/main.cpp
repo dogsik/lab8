@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <sstream>
 #include <iomanip>
@@ -16,45 +15,45 @@ int main()
     cout << "Variant #5. Internet Protocol.\n";
     cout << "Author: Kozlova Anastasia\n";
 
- cout << "Ëàáîğàòîğíàÿ ğàáîòà ¹8. GIT\n";
-cout << "Âàğèàíò ¹5. Ïğîòîêîë ğàáîòû â Èíòåğíåòå\n";
-cout << "Àâòîğ: Àíàñòàñèÿ Êîçëîâà\n\n";
+ cout << "Ã‹Ã Ã¡Ã®Ã°Ã Ã²Ã®Ã°Ã­Ã Ã¿ Ã°Ã Ã¡Ã®Ã²Ã  Â¹8. GIT\n";
+cout << "Ã‚Ã Ã°Ã¨Ã Ã­Ã² Â¹5. ÃÃ°Ã®Ã²Ã®ÃªÃ®Ã« Ã°Ã Ã¡Ã®Ã²Ã» Ã¢ ÃˆÃ­Ã²Ã¥Ã°Ã­Ã¥Ã²Ã¥\n";
+cout << "Ã€Ã¢Ã²Ã®Ã°: Ã€Ã­Ã Ã±Ã²Ã Ã±Ã¨Ã¿ ÃŠÃ®Ã§Ã«Ã®Ã¢Ã \n\n";
 Internet_Protocol* Protocol[MAX_FILE_ROWS_COUNT];
 int size;
 try
 {
     read("data.txt", Protocol, size);
-    cout << "***** Ïğîòîêîë ğàáîòû â èíòåğíåòå *****\n\n";
+    cout << "***** ÃÃ°Ã®Ã²Ã®ÃªÃ®Ã« Ã°Ã Ã¡Ã®Ã²Ã» Ã¢ Ã¨Ã­Ã²Ã¥Ã°Ã­Ã¥Ã²Ã¥ *****\n\n";
     for (int i = 0; i < size; i++)
     {
-        /********** êîë-âî áàéò **********/
-        /*ïîëó÷åííî*/
-        cout << "áàéòû........: ";
+        /********** ÃªÃ®Ã«-Ã¢Ã® Ã¡Ã Ã©Ã² **********/
+        /*Ã¯Ã®Ã«Ã³Ã·Ã¥Ã­Ã­Ã®*/
+        cout << "Ã¡Ã Ã©Ã²Ã»........: ";
         cout << Protocol[i]-> rec.bytes << " ";
         cout << Protocol[i]->finish.min << ". ";
         cout << '\n';
        
-       // âûâîä íàçâàíèÿ
+       // Ã¢Ã»Ã¢Ã®Ã¤ Ã­Ã Ã§Ã¢Ã Ã­Ã¨Ã¿
         cout << '"' << Protocol[i]->path << '"';
         cout << '\n';
        
-     /********** âûâîä âğåìåíè **********/
-        // âûâîä ÷àñîâ
-        cout << "Âğåìÿ çàøåë.....: ";
+     /********** Ã¢Ã»Ã¢Ã®Ã¤ Ã¢Ã°Ã¥Ã¬Ã¥Ã­Ã¨ **********/
+        // Ã¢Ã»Ã¢Ã®Ã¤ Ã·Ã Ã±Ã®Ã¢
+        cout << "Ã‚Ã°Ã¥Ã¬Ã¿ Ã§Ã Ã¸Ã¥Ã«.....: ";
         cout << setw(4) << setfill('0') << Protocol[i]->start.hourse << '-';
-        // âûâîä ìèíóò
+        // Ã¢Ã»Ã¢Ã®Ã¤ Ã¬Ã¨Ã­Ã³Ã²
         cout << setw(2) << setfill('0') << Protocol[i]->start.min << '-';
-        // âûâîä ñåê
+        // Ã¢Ã»Ã¢Ã®Ã¤ Ã±Ã¥Ãª
         cout << setw(2) << setfill('0') << Protocol[i]->start.sec;
         cout << '\n';
               
-        /********** âûâîä äàòû âîçâğàòà **********/
-        // âûâîä ãîäà
-        cout << "Âğåìÿ âûøåë...: ";
+        /********** Ã¢Ã»Ã¢Ã®Ã¤ Ã¤Ã Ã²Ã» Ã¢Ã®Ã§Ã¢Ã°Ã Ã²Ã  **********/
+        // Ã¢Ã»Ã¢Ã®Ã¤ Ã£Ã®Ã¤Ã 
+        cout << "Ã‚Ã°Ã¥Ã¬Ã¿ Ã¢Ã»Ã¸Ã¥Ã«...: ";
         cout << setw(4) << setfill('0') << Protocol[i]->finish.hourse << '-';
-        // âûâîä ìåñÿöà
+        // Ã¢Ã»Ã¢Ã®Ã¤ Ã¬Ã¥Ã±Ã¿Ã¶Ã 
         cout << setw(2) << setfill('0') << Protocol[i]->finish.min << '-';
-        // âûâîä ÷èñëà
+        // Ã¢Ã»Ã¢Ã®Ã¤ Ã·Ã¨Ã±Ã«Ã 
         cout << setw(2) << setfill('0') << Protocol[i]->finish.sec;
         cout << '\n';
         cout << '\n';
@@ -72,7 +71,7 @@ return 0;
 
 
    
-=======
+
 #include <iostream>
 
 using namespace std;
@@ -84,4 +83,4 @@ int main()
     cout << "Author: Kozlova Anastasia\n";
     return 0;
 }
->>>>>>> data
+
