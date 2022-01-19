@@ -1,5 +1,8 @@
+
 02:14:35 03:55:24 79024 145124 C:\Users\User\Desktop\Programs\Steam\COD.exe
 04:30:00 06:43:23 19867 999869 C:\Users\User\Desktop\Programs\Steam\LIS.exe
+02:14:35 03:55:24 79024 145124 C:\Users\User\Desktop\Programs\Steam\LiS.exe
+04:30:00 06:43:23 19867 999869 C:\Users\User\Desktop\Programs\Steam\FarCry.exe
 07:24:51 08:44:56 52345 623462 C:\Users\User\Desktop\Programs\Steam\Pathologic2.exe
 10:12:41 10:42:59 12839 912849 C:\Users\User\Desktop\Programs\Steam\Steam.exe
 11:03:22 12:26:23 37800 114000 C:\Users\User\Desktop\Programs\Skype\Skype.exe
@@ -11,3 +14,10 @@
 16:47:29 16:57:58 12412 125124 C:\Program Files\Google\Chrome\Application\Aragami.exe
 20:41:12 22:46:53 63422 867576 C:\Users\User\Desktop\Programs\Steam\PUBG.exe
 23:32:51 23:55:41 87658 875876 C:\Program Files\Google\Chrome\Application\chrome.exe
+13:35:23 13:55:31 58868 848765 C:\Program Files\Google\Chrome\Application\chrome.exe
+13:56:20 14:14:04 23523 151241 C:\Program Files\Google\Chrome\Application\chrome.exe
+15:04:55 16:05:39 52353 919274 C:\Users\User\Desktop\Programs\Skype\Skype.exe
+16:47:29 16:57:58 12412 125124 C:\Program Files\Google\Chrome\Application\chrome.exe
+20:41:12 22:46:53 63422 867576 C:\Users\User\Desktop\Programs\Steam\PUBG.exe
+23:32:51 23:55:41 87658 875876 C:\Program Files\Google\Chrome\Application\chrome.exe
+
